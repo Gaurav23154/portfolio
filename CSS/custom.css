@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: cell;
+    list-style: none;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+@font-face {
+    font-family: myfont;
+    src: url('/images/Photograph\ Signature.ttf');
+}
+
+@font-face {
+    font-family: myfont1;
+    src: url('/images/lemon_milk/LEMONMILK-Medium.otf');
+}
+
+body {
+    /* background: url('/images/cover1.jpg') no-repeat; */
+    height: 200vh;
+
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 75px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s;
+    padding: 30px 10%;
+
+    z-index: 100000;
+    /* background: rgba(0,0,0,0.2); */
+
+}
+
+header .logo {
+    position: relative;
+    font-family: myfont;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+
+}
+
+nav ul li {
+    position: relative;
+    padding: 0 20px;
+    font-size: 16px;
+    color: white;
+    list-style: none;
+}
+
+nav ul li a {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header button {
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid blue;
+    border-radius: 50px;
+    padding: 9px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+header button a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: blue;
+    transition: all 0.4s ease 0s;
+}
+
+header button:hover {
+    background: blue;
+    transition: all 0.4s ease 0s;
+}
+
+.firstsection {
+    position: relative;
+    background-image: url('/images/cover3.jpg');
+    background-size: cover;
+    height: 90vh;
+
+
+
+    /* width: 100%; */
+}
+
+.leftsection {
+    position: relative;
+    right: 302px;
+
+}
+
+.rightsection {
+    position: relative;
+    left: 975px;
+    top: 35px;
+    width: 500px;
+}
+
+.leftsection span {
+    color: white;
+    position: relative;
+    top: 310px;
+    left: 450px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 3px;
+
+    /* flex: initial; */
+}
+
+.Introduction {
+    color: gray;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    position: relative;
+    left: 451px;
+    top: 328px
+}
+
+/* .leftsection strong{
+    color:blue;
+    position: relative;
+    top: 240px;
+    left: 650px;
+    font-family: myfont;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 3px;
+} */
+/* .design-D{
+
+} */
+.btn {
+
+    position: relative;
+    top: 400px;
+    left: 451px;
+    padding: 12px;
+    margin: 0 10px;
+    background: black;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background: blue;
+    transition: all 0.4s ease 0s;
+}
+
+.secondsection1 {
+    display: flex;
+    background-color: rgb(21, 18, 18);
+    height: 80vh;
+}
+
+.leftsection1 img {
+    width: 400px;
+    position: relative;
+    left: 220px;
+    top: 150px;
+}
+
+.rightsection1 {
+    width: 40%;
+}
+
+.heading1 span {
+    position: relative;
+    left: 435px;
+    top: 125px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.headingintro {
+    color: gray;
+    position: relative;
+    top: 150px;
+    left: 435px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.headingintro1 {
+    display: flex;
+    position: relative;
+    top: 169px;
+    left: 445px;
+}
+
+.headingintro1 i {
+    margin: 0 5px;
+}
+
+.headingintro2 {
+    position: relative;
+    top: 195px;
+    left: 438px
+}
+
+.headingintro2 div {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.headingintro2 div i {
+    margin: 0 5px;
+}
+
+.thirdsection {
+    background-color: rgb(26, 25, 25);
+    height: 90vh;
+}
+
+.leftsection2 {
+    position: relative;
+    top: 100px;
+    left: 160px;
+    margin: 50px 0;
+}
+
+.skill {
+    position: relative;
+    top: 100px;
+    left: 158px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+
+}
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.leftsection2 li p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.bar {
+    background: rgb(53, 53, 55);
+    display: block;
+    width: 50%;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 10px 20px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.html {
+    width: 90%;
+    animation: html 3s;
+}
+
+.css {
+    width: 70%;
+    animation: css 3s;
+}
+
+.Javascript {
+    width: 61%;
+    animation: Javascript 3s;
+}
+
+.react {
+    width: 40%;
+    animation: react 3s;
+}
+
+.Programming {
+    width: 55%;
+    animation: Programming 3s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes Javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 61%;
+    }
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes Programming {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+.rightsection2 {
+    position: relative;
+    bottom: 271px;
+    left: 1033px;
+}
+
+.fourthsection {
+    height: 90vh;
+    background-color: rgb(16, 13, 13);
+}
+
+.headingintro3 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 53px;
+    left: 159px;
+}
+
+  .project1 {
+    position: relative;
+    top: 115px;
+    left: 154px;
+    background-color: black;
+    border: 4px solid rgb(53, 53, 55);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(179, 175, 175);
+    width: 35%;
+    height: 134px
+    
+}
+.project1:hover{
+  width: 35.5%;
+  height: 139px; 
+  transition: all 0.3s ease 0s; 
+}
+  .project2 {
+    position: relative;
+    top: 104px;
+    left: 300px;
+    background-color: black;
+    border: 4px solid rgb(53, 53, 55);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(179, 175, 175);
+    width: 35%;
+    height: 134px
+}
+.project2:hover{
+    width: 35.5%;
+    height: 139px; 
+    transition: all 0.3s ease 0s; 
+  }
+
+.project3 {
+    position: relative;
+    left: 155px;
+    top: 169px;
+    background-color: black;
+    border: 4px solid rgb(53, 53, 55);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(179, 175, 175);
+    width: 35%;
+    height: 134px
+}
+.project3:hover{
+    width: 35.5%;
+    height: 139px; 
+    transition: all 0.3s ease 0s; 
+  }
+
+.project4 {
+    position: relative;
+    top: 171px;
+    left: 300px;
+    background-color: black;
+    border: 4px solid rgb(53, 53, 55);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(179, 175, 175);
+    width: 35%;
+    height: 134px
+}
+.project4:hover{
+    width: 35.5%;
+    height: 139px; 
+    transition: all 0.3s ease 0s; 
+  }
+
+.project1 span {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 0 20px;
+    position: relative;
+    bottom: 12px;
+    right: 172px;
+}
+
+.project2 span {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 0 20px;
+    position: relative;
+    top: 0px;
+    right: 145px;
+}
+
+.project3 span {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 0 20px;
+    position: relative;
+    bottom: 10px;
+    right: 180px;
+}
+
+.project4 span {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin: 0 20px;
+    position: relative;
+    bottom: 12px;
+    right: 159px;
+}
+
+.project1 div {
+    color: gray;
+    position: relative;
+    top: -4px;
+    right: 91px;
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.project2 div {
+    color: gray;
+    position: relative;
+    top: 10px;
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.project3 div {
+    color: gray;
+    position: relative;
+    top: 5px;
+    right: 42px;
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.project4 div {
+    color: gray;
+    position: relative;
+    top: 1px;
+    right: 90px;
+    margin: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.fifthsection{
+    height: 60vh;
+    background-color: rgb(19, 17, 17);
+}
+.fifthsection span{
+font-size: 40px;
+font-family: 'Poppins', sans-serif;
+color: white;
+position: relative;
+top: 70px;
+left: 180px;
+}
+.icons1{
+    position: relative;
+    top: 136px;
+    left: 180px;
+}
+.icons2{
+    position: relative;
+    top: 190px;
+    left: 180px;
+}
+
+.fifthsection img{
+    width: 22%;
+    height: 70%;
+    border-radius: 171px ;
+    box-shadow:  4px 4px 15px rgb(99, 94, 94);
+      position: relative;
+    left: 970px;
+    top: 0px;
+ 
+}
+.fifthsection button{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 30px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 161px;
+}
+.fifthsection button:hover{
+    background-color: blue;
+}
+.fifthsection button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
